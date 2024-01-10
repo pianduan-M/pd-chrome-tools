@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/popup.css" />
+  </head>
+  <body>
+    <div class="popup-container">
+      <ul>
+        <li>
+          <label for="removeCopy">
+            <input
+              type="checkbox"
+              id="removeCopy"
+              name="removeCopy"
+              value="removeCopy"
+            />
+            拦截页面 copy 事件
+          </label>
+        </li>
+        <li>
+          <label for="clearDisableCode">
+            <input
+              type="checkbox"
+              id="clearDisableCode"
+              name="clearDisableCode"
+              value="clearDisableCode"
+            />
+            去除页面禁止复制代码
+          </label>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script src="js/popup.js" type="module" async></script>
+</html>

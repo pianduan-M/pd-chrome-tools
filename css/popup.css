@@ -1,0 +1,16 @@
+.popup-container {
+  padding: 16px;
+  width: 150px;
+  min-height: 100px;
+}
+
+input {
+  vertical-align: -0.15em;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
